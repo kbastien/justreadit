@@ -1,2 +1,3 @@
 # justreadit
-:books: An app that helps you get rid of those daunting lists of articles you have to read in Instapaper and/or Pocket.
+
+:books: Actually read the things you save to pocket. Or pay.

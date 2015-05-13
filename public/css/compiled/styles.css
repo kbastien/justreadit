@@ -1,0 +1,86 @@
+body {
+  font-family: 'proxima-nova', 'Lato', sans-serif;
+  color: white; }
+
+.bg-overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #33CCFF;
+  background-image: linear-gradient(270deg, #1b91d8, #00305A); }
+
+.navbar {
+  background: none;
+  border: none;
+  color: white; }
+  .navbar .navbar-default .navbar-brand {
+    color: white; }
+  .navbar .login-btn {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background: none;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    border-width: 2px;
+    border-color: white; }
+  .navbar .login-btn:hover {
+    background-color: white;
+    color: #1b91d8; }
+
+.hero-content {
+  font-size: 36px; }
+  .hero-content h1 {
+    margin-top: 125px;
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 700; }
+  .hero-content p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+    color: white; }
+  .hero-content .pocket-btn {
+    background: linear-gradient(#1b91d8, #0074D9);
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 30px 15px 30px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); }
+  .hero-content .learn-more-btn:hover {
+    background: #147FC0;
+    border-color: #147FC0; }
+  .hero-content #macbook {
+    position: absolute;
+    width: 15em;
+    margin-left: 2em;
+    margin-top: 100px; }
+  .hero-content #scrolling {
+    width: 348px;
+    height: 220px;
+    margin-left: 168px;
+    margin-top: 114px;
+    position: absolute; }
+  .hero-content #iphone {
+    position: absolute;
+    width: 3em;
+    margin-left: 2em;
+    margin-top: 190px; }
+  .hero-content #scrolling-mobile {
+    width: 94px;
+    height: 173px;
+    margin-left: 79px;
+    margin-top: 212px;
+    position: absolute; }
+  .hero-content .charity_badge img {
+    margin-top: 220px;
+    margin-left: 430px;
+    width: 4em; }
+
+.navbar-default .navbar-text {
+  color: white; }
+
+/*# sourceMappingURL=styles.css.map */

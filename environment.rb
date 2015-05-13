@@ -28,7 +28,9 @@ migration 'add users table' do
   end
 end
 
-use Rack::Session::Cookie
+use Rack::Session::Cookie, :key => 'rack.session',
+                           :path => '/',
+                           :secret => ENV['SESSION_SECRET'] || 'change_me'
 use OmniAuth::Builder do
   provider :pocket, ENV['POCKET_KEY']
 end

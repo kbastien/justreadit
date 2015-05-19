@@ -16,6 +16,14 @@ get '/auth/:provider/callback' do
   redirect '/'
 end
 
+get '/faq' do
+  erb :faq
+end
+
+get '/settings' do
+  erb :settings
+end
+
 get '/sign_out' do
   session[:user_id] = nil
   redirect '/'

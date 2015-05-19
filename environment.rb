@@ -5,6 +5,7 @@ require 'omniauth-pocket'
 require 'sinatra'
 require 'sinatra/sequel'
 require 'pry'
+require 'sass/plugin/rack'
 
 Dotenv.load! unless ENV['RACK_ENV'] == 'production'
 
@@ -28,6 +29,7 @@ migration 'add users table' do
   end
 end
 
+use Sass::Plugin::Rack
 use Rack::Session::Cookie, :key => 'rack.session',
                            :path => '/',
                            :secret => ENV['SESSION_SECRET'] || 'change_me'

@@ -17,7 +17,8 @@ body {
   color: white; }
   .navbar .navbar-default .navbar-brand {
     color: white; }
-  .navbar .login-btn {
+  .navbar .nav-btn {
+    margin-left: 10px;
     font-size: 14px;
     font-weight: 600;
     color: white;
